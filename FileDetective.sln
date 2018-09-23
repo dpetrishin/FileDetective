@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDetective.Terminal", "FileDetective.Terminal\FileDetective.Terminal.csproj", "{0D6B89FF-906D-48CF-A4C5-9977D64CAF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDetective.Tests", "FileDetective.Tests\FileDetective.Tests.csproj", "{7216284A-779B-4153-90E6-51B23F3EB787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDetective.Tests", "FileDetective.Tests\FileDetective.Tests.csproj", "{7216284A-779B-4153-90E6-51B23F3EB787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDetective.Library", "FileDetective.Library\FileDetective.Library.csproj", "{A8C59760-E784-42FB-BC1C-A3ED72010225}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7216284A-779B-4153-90E6-51B23F3EB787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7216284A-779B-4153-90E6-51B23F3EB787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7216284A-779B-4153-90E6-51B23F3EB787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C59760-E784-42FB-BC1C-A3ED72010225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C59760-E784-42FB-BC1C-A3ED72010225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C59760-E784-42FB-BC1C-A3ED72010225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C59760-E784-42FB-BC1C-A3ED72010225}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

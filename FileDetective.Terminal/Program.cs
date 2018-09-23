@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace FileDetective.Terminal
 {
@@ -7,6 +8,10 @@ namespace FileDetective.Terminal
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            FileSystemWatcher watcher = new FileSystemWatcher();
+
+            //watcher.Created += ;
         }
     }
 }
