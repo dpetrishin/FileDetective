@@ -11,5 +11,10 @@ namespace FileDetective.Library.FileProcessorFabric
         public string OperationName { get; set; }
 
         public string Result { get; set; }
+
+        public string ToString()
+        {
+            return $"<{this.FileName}>-<{this.OperationName}>-<{this.Result}>";
+        }
     }
 }
